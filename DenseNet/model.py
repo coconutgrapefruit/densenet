@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# note: ini_channel is the
 class DNet(nn.Module):
     def __init__(self, ini_channel, num_outs, config):
         super(DNet, self).__init__()
